@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm mới bài viết</title>
+</head>
+<body>
+    <p style="text-align: right; font-weight: bold;">
+        <a href="../trang_chu.html">Trang chủ</a> | <a href="../gioi_thieu.html">Giới thiệu</a> | <a href="../tin_tuc.html">Tin tức</a> | <a href="../lien_he.html">Liên hệ</a> | <a href="../admin/quan_tri_bai_viet.html">Quản trị bài viết</a>
+    </p>
+    
+    <h1 style="text-align: center; font-weight: bold; text-transform: uppercase; color: red;">Thêm mới bài viết</h1>
+    
+    <form action="../admin/bai_viet_them_moi_thuc_hien.html" method="post">
+        <p>
+            <input type="text" name="txtTieuDe" placeholder="Tiêu đề" style="width: 100%;">
+        </p>
+        <textarea name="txtMoTa" placeholder="Mô tả bài viết" style="width: 100%;" rows="5"></textarea>
+        <p>Ảnh minh hoạ: <input type="file" name="txtAnhMinhHoa"></p>
+        <textarea name="txtNoiDungBaiViet" placeholder="Nội dung bài viết" style="width: 100%;" rows="15"></textarea>
+        <p style="text-align: right;">
+            <input type="submit" value="Thêm mới">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+
+    <p style="text-align: right; font-weight: bold;">
+        <a href="https://hvnh.edu.vn" target="_blank">Học viện Ngân hàng</a> | <a href="https://itde.hvnh.edu.vn" target="_blank">Khoa CNTT & KTS</a> | <a href="https://isba.hvnh.edu.vn" target="_blank">Viện ĐTQT</a>
+    </p>
+</body>
+</html>
