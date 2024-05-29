@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 1024px;
+}
+
+a:link {
+    text-decoration: none;
+    color:rgb(255, 119, 0);
+}
+
+a:visited {
+    text-decoration: none;
+    color:rgb(255, 119, 0);
+}
+
+a:hover {
+    color:brown;
+}
+
+a:active {
+    color:brown;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.anh_minh_hoa {
+    border-radius: 10px;
+    opacity: 0.75;
+    margin: 10px;
+}
+
+.chi_tiet {
+    background-color: rgb(21, 193, 193);
+    padding: 6px 18px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    opacity: 0.75;
+}
+
+nav {
+    display: flex;
+    background-color: #787575;
+    flex: 100%;
+    padding: 0px;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #222222;
+    color:#ffe100;
+}
+
+nav #selected {
+    background-color: #222222;
+    color:#ffe100;
+}
+
+p {
+    text-align: justify;
+}
+
