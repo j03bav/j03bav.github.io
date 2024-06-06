@@ -24,7 +24,6 @@ a:active {
 }
 
 h3 {
-    text-transform: uppercase;
 }
 
 .anh_minh_hoa {
@@ -71,3 +70,20 @@ p {
     text-align: justify;
 }
 
+div.news {
+    float: left;
+    width: 320px;
+    height: 450px;
+    margin: 5px 10px;
+}
+
+div.news img {
+    width: 300px !important;
+}
+
+div#footer {
+    clear: both;
+    float: left;
+    width: 100%;
+    text-align: right;
+}
